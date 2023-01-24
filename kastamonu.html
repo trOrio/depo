@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KASTAMONU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;/*1rem = 10px*/
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+        /*******************/
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .arkaplan{
+            background-color: #25373D;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+            
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 200px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#fff;
+        }
+        .ust .logo h1{
+            font-size:4rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#FCB941;
+        }
+ 
+        .ust .logo h1:hover::first-letter{
+            background-color: #FCB941;
+            color:#25373D;
+        }
+ 
+        .ust .logo h2{
+            font-size:2.4rem;
+        }
+ 
+       
+ 
+        .ust .menu ul{
+            display: flex;
+        }
+        .ust .menu ul li{
+            margin:0 1rem;
+        }
+       
+ 
+        .ust .menu ul a{
+            color:#fff;
+            text-decoration: none;
+            font-size:1.8rem;
+            padding:0 2rem;
+        }
+        .ust .menu ul a:hover{
+            color:#FCB941;
+        }
+ 
+        .orta .bolum1{
+            margin-top:20px;
+            border:10px solid #25373D;
+            padding:20px;
+        }
+ 
+        .orta .bolum1 img{
+            display: block;
+            width: 100%;
+        }
+ 
+        .orta .bolum2{
+            margin-top:200px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+ 
+        .orta .bolum3{
+            display: flex;
+            justify-content: space-between;
+            gap:20px;
+        }
+ 
+        .orta .bolum3 h1{
+            font-size:2.5rem;
+        }
+ 
+        .orta .bolum3 p{
+            font-size:1.6rem;
+        }
+ 
+        .alt{
+            margin-top:20px;
+            padding:20px 0;
+            display: flex;
+            gap:20px;
+        }
+        .alt .baglanti{
+            flex-grow: 1;
+        }
+ 
+       
+ 
+        .alt .baglanti a{
+            font-size:1.6rem;
+            text-decoration: none;
+            color:#FCB941;
+        }
+ 
+        .alt-kenar-10{
+            border-bottom:10px solid #FCB941;
+        }
+        
+    </style>
+</head>
+<body>
+ 
+    <!-- sayfa üstü-->
+    <div class="arkaplan alt-kenar-10">
+        <div class="ust kapsayici">
+            <div class="logo">
+                <h1>KASTAMONU</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Ana Sayfa</a></li>
+                    <li><a href="gezilecek yerler.html">Gezilecek Yerler</a></li>
+                    <li><a href="yöresel yemekler.html">Yöresel Yemekleri</a></li>
+                    <li><a href="tarihi.html">Tarihi</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa ortası-->
+    <div class="orta kapsayici">
+        <div class="bolum1">
+            <img src="kastamonu.jpg" alt="Kapak resmi">
+        </div>
+        <div class="bolum2">
+            <div class="kutu">
+                <img src="saat kulesi.jpg" alt="" width="250" height="250">
+                <h2>Saat kulesi</h2>
+                <p>Kastamonu Saat Kulesi, Kastamonu ilinin Kastamonu ilçesinde bulunan saat kulesi. Yaklaşık 12 metre yüksekliğinde olan ve kesme taştan imal edilen saat kulesinin Doğu Arap rakamlarının yer aldığı 1,60 metre çapındaki saat kadranının II. Abdülhamid tarafından gönderildiği rivayet edilmektedir.</p>
+            </div>
+            <div class="kutu">
+                <img src="nasrullah kadı cami.jpg" alt="" width="250" height="250">
+                <h2>Nasrullah Kadı Cami</h2>
+                <p>Nasrullah Camii, Kastamonu'da Kadı Nasrullah tarafından 1506 yılında inşa edilmiş dini yapıdır. Osmanlı İmparatorluğu'nun Kastamonu'da inşa ettiği ilk anıtsal eserlerden biri olan Nasrullah Camii, Kastamonu'nun en önemli sembollerinden biridir.</p>
+            </div>
+            <div class="kutu">
+                <img src="şerife bacı anıtı.jpg" alt=""width="250" height="250">
+                <h2>Şerife Bacı Anıtı </h2>
+                <p>Şerife Bacı (1900?, Kastamonu - 1921, Kastamonu), Türk Kurtuluş Savaşı'nın Türk kadın kahramanı.
+                 Kastamonulu yaşlı kadın ve erkeklerle birlikte Kastamonu'daki cephanelerin Ankara'ya götürülmesinde verdiği mücadele sonucunda 1921 yılının Aralık ayında ağır kış şartları nedeniyle henüz 21 yaşındayken donarak hayatını kaybetti. Cephaneler ıslanmasın diye kazağını cephanelerin üstüne örtmüş, yavrusu ölmesin diye de üzerine abanmış ve bunun sonucunda kendisi soğuktan donarak vefat etmişti. </p>
+            </div>
+ 
+ 
+        </div>
+        <div class="cizgi"></div>
+        <div class="bolum3">
+            <div class="icerik">
+                <h1>Kastamonu </h1>
+                <p>Kastamonu, Türkiye Cumhuriyeti'nin Karadeniz Bölgesi'nde yer alan Kastamonu ilinin merkez şehridir.
+                 Gökırmak'ın bir kolu olan Karaçomak Deresi vadisinde kurulu bulunan şehrin denizden yüksekliği 774 metredir.</p>
+                <p>Evliyalar şehri olarak da bilinen Kastamonu Anadolu'daki en eski şehirlerden biridir, antik çağ ve Türk-İslâm dönemine ait birçok tarihi eser vardır. Kastamonu Kalesi, Atabey Camii, Şeyh Şaban-ı Veli Türbesi, Yanık Sultan Türbesi, Nasrullah Camii, saat kulesi ve buna benzer birçok tarihi eser mevcuttur. Çivisiz yapı mimari olarak yapılan Mahmut Bey Camii de buradadır. Kastamonu kent merkezinde ayrıca Türkiye'de açılan ilk "Kent Tarihi Müzesi" bulunmaktadır.</p>
+            </div>
+            <div class="gorsel">
+                <img src="kastamonu1.jpg" alt=""width="350" height="300">
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa altı-->
+    <div class="arkaplan">
+        <div class="alt kapsayici">
+            <div class="baglanti">
+                <ul>
+                    <li><a href="#">İletişim Bilgileri</a></li>
+                    <li><a href="#">Telefon Numarası 0000 000 00 00</a></li>
+                    <li><a href="https://myaccount.google.com/?hl=tr&authuser=0&utm_source=OGB&utm_medium=act">Gmail 22490066@stu.omu.edu.tr</a></li>
+                    <li><a href="#">Facebook Mustafa YILDIZ</a></li>
+                    <li><a href="#">İnstagram mstfyldz57</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

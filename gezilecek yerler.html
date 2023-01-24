@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KASTAMONU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;/*1rem = 10px*/
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+        /*******************/
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .arkaplan{
+            background-color: #25373D;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+            
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 200px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#fff;
+        }
+        .ust .logo h1{
+            font-size:4rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#FCB941;
+        }
+ 
+        .ust .logo h1:hover::first-letter{
+            background-color: #FCB941;
+            color:#25373D;
+        }
+ 
+        .ust .logo h2{
+            font-size:2.4rem;
+        }
+ 
+       
+ 
+        .ust .menu ul{
+            display: flex;
+        }
+        .ust .menu ul li{
+            margin:0 1rem;
+        }
+       
+ 
+        .ust .menu ul a{
+            color:#fff;
+            text-decoration: none;
+            font-size:1.8rem;
+            padding:0 2rem;
+        }
+        .ust .menu ul a:hover{
+            color:#FCB941;
+        }
+ 
+        .orta .bolum1{
+            margin-top:20px;
+            border:10px solid #25373D;
+            padding:20px;
+        }
+ 
+        .orta .bolum1 img{
+            display: block;
+            width: 100%;
+        }
+ 
+        .orta .bolum2{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+ 
+        .orta .bolum3{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum3 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum3 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum3 .kutu p{
+            font-size: 1.6rem;
+        }
+ 
+        .alt{
+            margin-top:20px;
+            padding:20px 0;
+            display: flex;
+            gap:20px;
+        }
+        .alt .baglanti{
+            flex-grow: 1;
+        }
+ 
+       
+ 
+        .alt .baglanti a{
+            font-size:1.6rem;
+            text-decoration: none;
+            color:#FCB941;
+        }
+ 
+        .alt-kenar-10{
+            border-bottom:10px solid #FCB941;
+        }
+        
+    </style>
+</head>
+<body>
+ 
+    <!-- sayfa üstü-->
+    <div class="arkaplan alt-kenar-10">
+        <div class="ust kapsayici">
+            <div class="logo">
+                <h1>KASTAMONU</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="kastamonu.html">Ana Sayfa</a></li>
+                    <li><a href="gezilecek yerler.html">Gezilecek Yerler</a></li>
+                    <li><a href="yöresel yemekler.html">Yöresel Yemekleri</a></li>
+                    <li><a href="tarihi.html">Tarihi</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa ortası-->
+    <div class="orta kapsayici">
+        <div class="bolum1">
+            <img src="manzara.jpg" alt="Kapak resmi">
+        </div>
+        <div class="bolum2">
+            <div class="kutu">
+                <img src="külliye1.jpg"alt="" width="250" height="250">
+                <h2>Hz.Pir Şeyh Şaban-i Veli Külliyesi</h2>
+                <p>Şeyh Şabanı Veli Külliyesi, külliyede bulunan caminin kitabesinden III. Murad’ın Hocası Suca Efendi tarafından yaptırıldığı anlaşılmaktadır. Şeyh Şabanı Veli Külliyesi; Degah Evleri, Cami, Türbe, Kütüphane, Asa Suyu ve Şadırvan'dır.</p>
+            </div>
+            <div class="kutu">
+                <img src="valla kanyonu1.jpg" alt="" width="250" height="250">
+                <h2>Valla Kanyonu </h2>
+                <p>Valla kanyonu, Kastamonu ili, Pınarbaşı ilçesi, Muratbaşı (Valla) köyü sınırları içinde bulunur. Küre Dağları Millî Parkı içinde yer alan kanyon 800 m derinliği ile dünyanın en derin 2. kanyonudur[1]. Devrekani Çayı'nın Küre Dağları'nı parçalayarak oluşturduğu kanyondur. Uzunluğu 12 km'dir</p>
+            </div>
+            <div class="kutu">
+                <img src="müze.jpg" alt=""width="250" height="250">
+                <h2>Arkeoloji Müzesi </h2>
+                <p>Kastamonu Arkeoloji Müzesi, Kastamonu ve Çankırı çevresinden toplanan arkeolojik eserlerin sergilendiği müzedir. Müzede Hitit, Frig, Helenistik, Roma ve Bizans dönemlerine ait çeşitli eserlerin yanı sıra Candaroğulları Beyliği ve Osmanlı dönemine ait eserlere de müzede yer verilmiştir </p>
+            </div>
+ 
+ 
+        </div>
+        <div class="cizgi"></div>
+        <div class="bolum3">
+            <div class="kutu">
+                <img src="ismail bey.jpg"alt="" width="250" height="250">
+                <h2>İsmail Bey Külliyesi</h2>
+                <p>Candaroğulları Beyliği’nin son hükümdarı İsmail Bey tarafından yaptırılan külliye içerisinde cami, türbe, medrese, han, hamam ve kütüphaneden oluşan beylikler devri sanatının en güzel örneklerini sergileyen yapılar topluluğu bulunmaktadır.</p>
+            </div>
+            <div class="kutu">
+                <img src="ılıca şelalesi.jpg" alt="" width="250" height="250">
+                <h2>Ilıca Şelalesi </h2>
+                <p>Kastamonu Pınarbaşı’na 12 kilometre uzaklıkta Ilıca Köyü sınırlarında olan Ilıca Şelalesi. 15 metre yükseklikten dökülmektedir. Ilıca şelalesi, suyun döküldüğü yerde oluşan doğal havuz ve çevresi çeşitli bitki örtüsü ile kaplanmış egzotik bir görünüme sahiptir.</p>
+            </div>
+            <div class="kutu">
+                <img src="şapka müzesi.jpg" alt=""width="250" height="250">
+                <h2>Şapka Müzesi </h2>
+                <p>Büyük önder Atatürk'ün Şapka İnkilâbını Kastamonu'da yapmasıyla birlikte, Cumhuriyet'in kurulduğu günden günümüze kadar giyilen bay ve bayan şapkalarından ve Atatürk'ün giydiği şapkalardan oluşan Türkiye'deki ilk ve tek Şapka Müzesi</p> 
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa altı-->
+    <div class="arkaplan">
+        <div class="alt kapsayici">
+            <div class="baglanti">
+                <ul>
+                    <li><a href="#">İletişim Bilgileri</a></li>
+                    <li><a href="#">Telefon Numarası 0000 000 00 00</a></li>
+                    <li><a href="https://myaccount.google.com/?hl=tr&authuser=0&utm_source=OGB&utm_medium=act">Gmail 22490066@stu.omu.edu.tr</a></li>
+                    <li><a href="#">Facebook Mustafa YILDIZ</a></li>
+                    <li><a href="#">İnstagram mstfyldz57</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

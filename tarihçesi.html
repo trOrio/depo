@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KASTAMONU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;/*1rem = 10px*/
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+        /*******************/
+        body{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .arkaplan{
+            background-color: #25373D;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+            
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 200px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#fff;
+        }
+        .ust .logo h1{
+            font-size:4rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#FCB941;
+        }
+ 
+        .ust .logo h1:hover::first-letter{
+            background-color: #FCB941;
+            color:#25373D;
+        }
+ 
+        .ust .logo h2{
+            font-size:2.4rem;
+        }
+ 
+       
+ 
+        .ust .menu ul{
+            display: flex;
+        }
+        .ust .menu ul li{
+            margin:0 1rem;
+        }
+       
+ 
+        .ust .menu ul a{
+            color:#fff;
+            text-decoration: none;
+            font-size:1.8rem;
+            padding:0 2rem;
+        }
+        .ust .menu ul a:hover{
+            color:#FCB941;
+        }
+ 
+        .orta .bolum1{
+            margin-top:20px;
+            border:10px solid #25373D;
+            padding:20px;
+        }
+ 
+        .orta .bolum1 img{
+            display: block;
+            width: 100%;
+        }
+ 
+        .orta .bolum2{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+ 
+        .orta .bolum3{
+            display: flex;
+            justify-content: space-between;
+            gap:20px;
+        }
+ 
+        .orta .bolum3 h1{
+            font-size:2.5rem;
+        }
+ 
+        .orta .bolum3 p{
+            font-size:1.6rem;
+        }
+ 
+        .alt{
+            margin-top:20px;
+            padding:20px 0;
+            display: flex;
+            gap:20px;
+        }
+        .alt .baglanti{
+            flex-grow: 1;
+        }
+ 
+       
+ 
+        .alt .baglanti a{
+            font-size:1.6rem;
+            text-decoration: none;
+            color:#FCB941;
+        }
+ 
+        .alt-kenar-10{
+            border-bottom:10px solid #FCB941;
+        }
+        
+    </style>
+</head>
+<body>
+ 
+    <!-- sayfa üstü-->
+    <div class="arkaplan alt-kenar-10">
+        <div class="ust kapsayici">
+            <div class="logo">
+                <h1>KASTAMONU</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Ana Sayfa</a></li>
+                    <li><a href="gezilecek yerler.html">Gezilecek Yerler</a></li>
+                    <li><a href="yöresel yemekler.html">Yöresel Yemekleri</a></li>
+                    <li><a href="tarihçesi.html">Tarihi</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa ortası-->
+    <div class="orta kapsayici">
+        <div class="bolum1">
+            <img src="kastamonu.jpg" alt="Kapak resmi">
+        </div>
+        <div class="bolum2">
+            <div class="kutu">
+               <p>Kastamonu'nun bilinen tarihi, Hitit İmparatorluğu ile başlar. Hititlerden sonra Frigya ve Lidya Krallıklarının egemen olduğu bu topraklar M.Ö. 4.yy'da Perslerin eline geçmiştir. M.Ö.4. yy'da Büyük İskender Anadolu ile birlikte Kastamonu topraklarını da Makedonya'ya katmıştır. İskender'den sonra yöreyi ele geçiren Pontus Krallığı M.Ö. 1. yy'da Romalılar tarafından ortadan kaldırılmıştır. Uzun yıllar Roma İmparatorluğu sınırları içinde kalan Kastamonu M.S. 395 yılında İmparatorluğun bölünmesiyle bütün Anadolu gibi Bizans İmparatorluğuna katılmıştır.
+            </p> 
+               <p> Prehistorik çağlardan sonra havalinin (Paflagonya'nın) bilinen Sümerlerin en eski bir kolu olan Gaslar (Gaşka Türkleri)'dır. M.Ö. 2000-1300 yılları arasında hüküm süren Gaslar (Gaşkalar) devamlı olarak Mısırlılar, Suriyeliler ve Kaldelilerle siyasi, ticari ve kültürel münasebetlerde bulunmuşlar, Hititlerle de bazen savaşmış bazen dost olmuşlardır. Gaslar sert karakterli, cengaver kişiler olarak bilinmektedir.  
+               </p>
+                
+               <p>  Bugün Kastamonu ve çevresindeki illeri de içine alan ve Romalılar devrinde adına Paflagonya (Paphlagonia) denilen Gasların kurduğu şehirlerden bir tanesi de "Timonion" veya "Tumanna" dır. Bazı yazarlar Kastamonu adının kökeni konusunda; bu kelimenin "Gas" kelimesi ile "Timoni" veya "Tumanna" kelimesinin (Gas ülkesi anlamında) birleşmesinden meydana geldiği görüşünü ileri sürmüşlerdir ki en akla yakın ihtimal budur. Fonetik yönden de bugünkü Kastamonu ismine yakındır. 
+            </p>
+                
+            <p>  İkinci bir görüşe göre Romalılar devrinde Taşköprü'nün eyalet merkezi olduğu zamanlar Kastamonu küçük bir kasaba olup, Bizans devrinde ve özellikle Kommenler soyu zamanında gelişmeye başlamıştır. Bu soy zamanında buraya bir kale yapılmış ve Kommenlerin kalesi anlamında "Kastra Kommen" denilmiştir. Bu kelimenin zamanla "Kastamonu" şekline dönüştüğünü ileri sürenler olmuşsa da bunu belirleyen herhangi bir belge mevcut değildir.
+            </p>
+                
+            <p>  Kastamonu'nun ilk defa Türklerin eline geçmesi Danişmentliler zamanında Ahmet Gazi'nin Oğlu Gümüş Tekin devrinde 1105 yılında gerçekleşmiştir. Yüz yıla yakın bir zaman Danişment idaresinde kalan şehir ve çevresi 15 yıl süre ile tekrar Bizanslılara geçmiş, 1213 yılında Anadolu Selçuklu Sultanı Alaaddin Keykubat'ın emriyle Selçuklu Kumandanı Hüsamettin Çobanbey tarafından zaptedilmiştir.
+            </p>
+                
+            <p>   Moğollar tarafından bölgenin ikinci kez zaptına memur edilen Şemsettin Yaman Candar kumandasındaki ordu 1292 yılında Kastamonu'ya giderek Muzafferettin Yavlak Arslan birliğini bozguna uğratmış kendisi de öldürülmüştür. Muzafferettin Yavlak Arslanın oğlu Mahmutbey, babasının intikamını almak için mücadeleye girmiş ve Şemsettin Yaman Candar'ı buradan batıya sürmeyi başarmıştır. Şemsettin Yaman Candar'ın ölümünden sonra Süleyman Paşa tarafından 1309 yılında Kastamonu yeniden zaptedilmiş, toprakları genişletilerek “Candaroğulları Beyliği”ni kurmuş ve Çobanlar hakimiyetine son vermiştir.
+            </p>
+                
+            <p>  İsfendiyarbeyden sonra "İsfendiyaroğulları" adını da alan Kastamonu Beyliği 1460 yılında Osmanlı idaresine girinceye kadar önemli bir ilim ve kültür merkezi olmuş, bir çok ilim adamı yetiştirmiş, Osmanlılar zamanında da bu özelliğini devam ettirmiştir.
+            </p>
+                
+            <p>   Kastamonu, Fatih Sultan Mehmet'in 1460 yılında Sinop'la birlikte bu şehri alarak Candaroğulları beyliğini ortadan kaldırmasından sonra Osmanlı devletine katılmıştır. Kastamonu Milli Mücadele sırasında lojistik destek açısından en güvenilir bölge olması nedeniyle büyük yarar sağlamıştır. Özellikle Ankara'ya İnebolu-Kastamonu yoluyla yiyecek, giyecek, para, cephane ve silah nakli yapılmıştır.
+            </p>
+                
+            <p>   Cumhuriyetin ilanından sonra, Büyük Önder Mustafa Kemal Atatürk'ün "23-31 Ağustos 1925" tarihleri arasında Kastamonu'da yaptığı Kıyafet ve Şapka İnkılabı, Cumhuriyet döneminin önemli olayı olarak tarih sayfalarına geçmiştir. Bu süre "Kültür, Tarih ve Sanat Haftası" ismini almıştır,
+                
+            </p>
+            </div>
+ 
+ 
+        
+       
+       
+        
+    </div>
+ 
+    <!-- sayfa altı-->
+    <div class="arkaplan">
+        <div class="alt kapsayici">
+            <div class="baglanti">
+                <ul>
+                    <li><a href="#">İletişim Bilgileri</a></li>
+                    <li><a href="#">Telefon Numarası 0000 000 00 00</a></li>
+                    <li><a href="https://myaccount.google.com/?hl=tr&authuser=0&utm_source=OGB&utm_medium=act">Gmail 22490066@stu.omu.edu.tr</a></li>
+                    <li><a href="#">Facebook Mustafa YILDIZ</a></li>
+                    <li><a href="#">İnstagram mstfyldz57</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
